@@ -304,7 +304,7 @@ function App() {
       acknowledged: true,
     },
   ]);
-  const [trendData, setTrendData] = useState(() => {
+  const [trendData] = useState(() => {
     const data = [];
     for (let i = 24; i >= 0; i--) {
       const hour = new Date();
