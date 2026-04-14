@@ -1,0 +1,29 @@
+# Crime Radar - AI-Powered Security Intelligence Platform
+
+*.pyc
+__pycache__/
+*.egg-info/
+.venv/
+.env
+.env.local
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+
+# Data
+data/*.csv
+data/*.json
+*.db
